@@ -1,0 +1,11 @@
+npm i -g @nestjs/cli
+nest new rob-nest
+
+nest g module book
+
+nest g controller book 
+
+nest g service book 
+
+For mongodb:
+npm i mongoose @nestjs/mongoose @nestjs/config --save
